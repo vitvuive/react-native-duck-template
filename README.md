@@ -1,1 +1,1 @@
-# react-native-mini-template
+# react-native-duck-template
