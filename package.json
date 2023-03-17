@@ -1,0 +1,8 @@
+{
+  "name": "react-native-duck-template",
+  "version": "0.0.5",
+  "description": "React Native Template for base project",
+  "repository": "git@github.com:Esemesek/react-native-new-template.git",
+  "author": "Viet Nguyen <vietqb9779@gmail.com>",
+  "license": "MIT"
+}
