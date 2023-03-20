@@ -8,7 +8,7 @@ module.exports = {
   titlePlaceholder: "TheDuckTemplate React Native Boilerplate",
 
   // Directory with template
-  templateDir: "./template",
+  templateDir: "./temp",
 
   // Path to script, which will be executed after init
   postInitScript: "./post-init.script.sh",
