@@ -94,9 +94,9 @@ android {
 
     compileSdkVersion rootProject.ext.compileSdkVersion
 
-    namespace "com.sporta_bussiness"
+    namespace "com.duckstartkit.app"
     defaultConfig {
-        applicationId "com.sporta_bussiness"
+        applicationId "com.duckstartkit.app"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1

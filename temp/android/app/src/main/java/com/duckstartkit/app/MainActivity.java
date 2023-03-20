@@ -1,4 +1,4 @@
-package com.sporta_bussiness;
+package com.duckstartkit.app;
 
 import com.facebook.react.ReactActivity;
 import com.facebook.react.ReactActivityDelegate;
@@ -19,7 +19,7 @@ protected void onCreate(Bundle savedInstanceState) {
    */
   @Override
   protected String getMainComponentName() {
-    return "sporta_bussiness";
+    return "DuckStartKit";
   }
 
   /**

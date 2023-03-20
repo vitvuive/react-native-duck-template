@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* sporta_bussinessTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* sporta_bussinessTests.m */; };
-		0C80B921A6F3F58F76C31292 /* libPods-sporta_bussiness.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-sporta_bussiness.a */; };
+		00E356F31AD99517003FC87E /* DuckStartKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* DuckStartKitTests.m */; };
+		0C80B921A6F3F58F76C31292 /* libPods-DuckStartKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-DuckStartKit.a */; };
 		0EBD300A670345EF9EEF056F /* OpenSans-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 34CC4AB33A1A4A0D904EF126 /* OpenSans-MediumItalic.ttf */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
@@ -37,7 +37,7 @@
 		6C90873319374955AC5EE55F /* OpenSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BC407C79ECBD45018B159FFD /* OpenSans-Italic.ttf */; };
 		6E91018558784D88BD319624 /* OpenSans-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6CBE3BDC9B5549CEB1D236E0 /* OpenSans-ExtraBoldItalic.ttf */; };
 		7537F79DD99F493AAA382C7B /* OpenSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8337EE3CC2674402AE0F91B8 /* OpenSans-Medium.ttf */; };
-		7699B88040F8A987B510C191 /* libPods-sporta_bussiness-sporta_bussinessTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-sporta_bussiness-sporta_bussinessTests.a */; };
+		7699B88040F8A987B510C191 /* libPods-DuckStartKit-DuckStartKitTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-DuckStartKit-DuckStartKitTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		B665F6E3FBD8443993E6CDCC /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D0B2476043284F35A8E2CCA2 /* OpenSans-Regular.ttf */; };
 		B7ECD8B4A3B247C9915ECE0C /* OpenSans-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA8A5F873D6B4FDAAA3D6C71 /* OpenSans-LightItalic.ttf */; };
@@ -50,23 +50,23 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = sporta_bussiness;
+			remoteInfo = DuckStartKit;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00E356EE1AD99517003FC87E /* sporta_bussinessTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sporta_bussinessTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* DuckStartKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DuckStartKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* sporta_bussinessTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sporta_bussinessTests.m; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* sporta_bussiness.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sporta_bussiness.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = sporta_bussiness/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = sporta_bussiness/AppDelegate.mm; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = sporta_bussiness/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = sporta_bussiness/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = sporta_bussiness/main.m; sourceTree = "<group>"; };
-		19F6CBCC0A4E27FBF8BF4A61 /* libPods-sporta_bussiness-sporta_bussinessTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-sporta_bussiness-sporta_bussinessTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F21AD99517003FC87E /* DuckStartKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DuckStartKitTests.m; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* DuckStartKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DuckStartKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = DuckStartKit/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = DuckStartKit/AppDelegate.mm; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = DuckStartKit/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = DuckStartKit/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = DuckStartKit/main.m; sourceTree = "<group>"; };
+		19F6CBCC0A4E27FBF8BF4A61 /* libPods-DuckStartKit-DuckStartKitTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DuckStartKit-DuckStartKitTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		34CC4AB33A1A4A0D904EF126 /* OpenSans-MediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-MediumItalic.ttf"; path = "../src/assets/fonts/OpenSans-MediumItalic.ttf"; sourceTree = "<group>"; };
-		3B4392A12AC88292D35C810B /* Pods-sporta_bussiness.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sporta_bussiness.debug.xcconfig"; path = "Target Support Files/Pods-sporta_bussiness/Pods-sporta_bussiness.debug.xcconfig"; sourceTree = "<group>"; };
+		3B4392A12AC88292D35C810B /* Pods-DuckStartKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DuckStartKit.debug.xcconfig"; path = "Target Support Files/Pods-DuckStartKit/Pods-DuckStartKit.debug.xcconfig"; sourceTree = "<group>"; };
 		475159FC29C1C7EE00EEA85B /* Fontisto.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Fontisto.ttf; sourceTree = "<group>"; };
 		475159FD29C1C7EE00EEA85B /* Octicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Octicons.ttf; sourceTree = "<group>"; };
 		475159FE29C1C7EE00EEA85B /* Feather.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Feather.ttf; sourceTree = "<group>"; };
@@ -86,15 +86,15 @@
 		4A136B400E0B46E8A3E84490 /* OpenSans-SemiBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-SemiBoldItalic.ttf"; path = "../src/assets/fonts/OpenSans-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
 		4A493234EED94EF89BD686B5 /* OpenSans-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-BoldItalic.ttf"; path = "../src/assets/fonts/OpenSans-BoldItalic.ttf"; sourceTree = "<group>"; };
 		4FA70AA439394FECA4FDB175 /* OpenSans-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-SemiBold.ttf"; path = "../src/assets/fonts/OpenSans-SemiBold.ttf"; sourceTree = "<group>"; };
-		5709B34CF0A7D63546082F79 /* Pods-sporta_bussiness.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sporta_bussiness.release.xcconfig"; path = "Target Support Files/Pods-sporta_bussiness/Pods-sporta_bussiness.release.xcconfig"; sourceTree = "<group>"; };
-		5B7EB9410499542E8C5724F5 /* Pods-sporta_bussiness-sporta_bussinessTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sporta_bussiness-sporta_bussinessTests.debug.xcconfig"; path = "Target Support Files/Pods-sporta_bussiness-sporta_bussinessTests/Pods-sporta_bussiness-sporta_bussinessTests.debug.xcconfig"; sourceTree = "<group>"; };
-		5DCACB8F33CDC322A6C60F78 /* libPods-sporta_bussiness.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-sporta_bussiness.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5709B34CF0A7D63546082F79 /* Pods-DuckStartKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DuckStartKit.release.xcconfig"; path = "Target Support Files/Pods-DuckStartKit/Pods-DuckStartKit.release.xcconfig"; sourceTree = "<group>"; };
+		5B7EB9410499542E8C5724F5 /* Pods-DuckStartKit-DuckStartKitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DuckStartKit-DuckStartKitTests.debug.xcconfig"; path = "Target Support Files/Pods-DuckStartKit-DuckStartKitTests/Pods-DuckStartKit-DuckStartKitTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5DCACB8F33CDC322A6C60F78 /* libPods-DuckStartKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DuckStartKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		60ED0D25EA5D49508B8DB267 /* OpenSans-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-ExtraBold.ttf"; path = "../src/assets/fonts/OpenSans-ExtraBold.ttf"; sourceTree = "<group>"; };
 		6CBE3BDC9B5549CEB1D236E0 /* OpenSans-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-ExtraBoldItalic.ttf"; path = "../src/assets/fonts/OpenSans-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
 		774B07BC0919420C9AA5BB42 /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-Bold.ttf"; path = "../src/assets/fonts/OpenSans-Bold.ttf"; sourceTree = "<group>"; };
-		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = sporta_bussiness/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = DuckStartKit/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8337EE3CC2674402AE0F91B8 /* OpenSans-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-Medium.ttf"; path = "../src/assets/fonts/OpenSans-Medium.ttf"; sourceTree = "<group>"; };
-		89C6BE57DB24E9ADA2F236DE /* Pods-sporta_bussiness-sporta_bussinessTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sporta_bussiness-sporta_bussinessTests.release.xcconfig"; path = "Target Support Files/Pods-sporta_bussiness-sporta_bussinessTests/Pods-sporta_bussiness-sporta_bussinessTests.release.xcconfig"; sourceTree = "<group>"; };
+		89C6BE57DB24E9ADA2F236DE /* Pods-DuckStartKit-DuckStartKitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DuckStartKit-DuckStartKitTests.release.xcconfig"; path = "Target Support Files/Pods-DuckStartKit-DuckStartKitTests/Pods-DuckStartKit-DuckStartKitTests.release.xcconfig"; sourceTree = "<group>"; };
 		9C0B5B68FD3F4ABE858AFD89 /* OpenSans-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-Light.ttf"; path = "../src/assets/fonts/OpenSans-Light.ttf"; sourceTree = "<group>"; };
 		BC407C79ECBD45018B159FFD /* OpenSans-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-Italic.ttf"; path = "../src/assets/fonts/OpenSans-Italic.ttf"; sourceTree = "<group>"; };
 		D0B2476043284F35A8E2CCA2 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-Regular.ttf"; path = "../src/assets/fonts/OpenSans-Regular.ttf"; sourceTree = "<group>"; };
@@ -107,7 +107,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7699B88040F8A987B510C191 /* libPods-sporta_bussiness-sporta_bussinessTests.a in Frameworks */,
+				7699B88040F8A987B510C191 /* libPods-DuckStartKit-DuckStartKitTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -115,20 +115,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C80B921A6F3F58F76C31292 /* libPods-sporta_bussiness.a in Frameworks */,
+				0C80B921A6F3F58F76C31292 /* libPods-DuckStartKit.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* sporta_bussinessTests */ = {
+		00E356EF1AD99517003FC87E /* DuckStartKitTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* sporta_bussinessTests.m */,
+				00E356F21AD99517003FC87E /* DuckStartKitTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = sporta_bussinessTests;
+			path = DuckStartKitTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -139,7 +139,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* sporta_bussiness */ = {
+		13B07FAE1A68108700A75B9A /* DuckStartKit */ = {
 			isa = PBXGroup;
 			children = (
 				475159FB29C1C7EE00EEA85B /* Fonts */,
@@ -150,15 +150,15 @@
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = sporta_bussiness;
+			name = DuckStartKit;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				5DCACB8F33CDC322A6C60F78 /* libPods-sporta_bussiness.a */,
-				19F6CBCC0A4E27FBF8BF4A61 /* libPods-sporta_bussiness-sporta_bussinessTests.a */,
+				5DCACB8F33CDC322A6C60F78 /* libPods-DuckStartKit.a */,
+				19F6CBCC0A4E27FBF8BF4A61 /* libPods-DuckStartKit-DuckStartKitTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -216,9 +216,9 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* sporta_bussiness */,
+				13B07FAE1A68108700A75B9A /* DuckStartKit */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* sporta_bussinessTests */,
+				00E356EF1AD99517003FC87E /* DuckStartKitTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
@@ -232,8 +232,8 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* sporta_bussiness.app */,
-				00E356EE1AD99517003FC87E /* sporta_bussinessTests.xctest */,
+				13B07F961A680F5B00A75B9A /* DuckStartKit.app */,
+				00E356EE1AD99517003FC87E /* DuckStartKitTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -241,10 +241,10 @@
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3B4392A12AC88292D35C810B /* Pods-sporta_bussiness.debug.xcconfig */,
-				5709B34CF0A7D63546082F79 /* Pods-sporta_bussiness.release.xcconfig */,
-				5B7EB9410499542E8C5724F5 /* Pods-sporta_bussiness-sporta_bussinessTests.debug.xcconfig */,
-				89C6BE57DB24E9ADA2F236DE /* Pods-sporta_bussiness-sporta_bussinessTests.release.xcconfig */,
+				3B4392A12AC88292D35C810B /* Pods-DuckStartKit.debug.xcconfig */,
+				5709B34CF0A7D63546082F79 /* Pods-DuckStartKit.release.xcconfig */,
+				5B7EB9410499542E8C5724F5 /* Pods-DuckStartKit-DuckStartKitTests.debug.xcconfig */,
+				89C6BE57DB24E9ADA2F236DE /* Pods-DuckStartKit-DuckStartKitTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -252,9 +252,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* sporta_bussinessTests */ = {
+		00E356ED1AD99517003FC87E /* DuckStartKitTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "sporta_bussinessTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "DuckStartKitTests" */;
 			buildPhases = (
 				A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
@@ -268,14 +268,13 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = sporta_bussinessTests;
-			productName = sporta_bussinessTests;
-			productReference = 00E356EE1AD99517003FC87E /* sporta_bussinessTests.xctest */;
+			name = DuckStartKitTests;
+			productReference = 00E356EE1AD99517003FC87E /* DuckStartKitTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* sporta_bussiness */ = {
+		13B07F861A680F5B00A75B9A /* DuckStartKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "sporta_bussiness" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "DuckStartKit" */;
 			buildPhases = (
 				C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
@@ -290,9 +289,9 @@
 			);
 			dependencies = (
 			);
-			name = sporta_bussiness;
-			productName = sporta_bussiness;
-			productReference = 13B07F961A680F5B00A75B9A /* sporta_bussiness.app */;
+			name = DuckStartKit;
+			productName = DuckStartKit;
+			productReference = 13B07F961A680F5B00A75B9A /* DuckStartKit.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -312,7 +311,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "sporta_bussiness" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "DuckStartKit" */;
 			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -325,8 +324,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* sporta_bussiness */,
-				00E356ED1AD99517003FC87E /* sporta_bussinessTests */,
+				13B07F861A680F5B00A75B9A /* DuckStartKit */,
+				00E356ED1AD99517003FC87E /* DuckStartKitTests */,
 			);
 		};
 /* End PBXProject section */
@@ -401,15 +400,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-sporta_bussiness/Pods-sporta_bussiness-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-DuckStartKit/Pods-DuckStartKit-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-sporta_bussiness/Pods-sporta_bussiness-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-DuckStartKit/Pods-DuckStartKit-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-sporta_bussiness/Pods-sporta_bussiness-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DuckStartKit/Pods-DuckStartKit-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */ = {
@@ -427,7 +426,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-sporta_bussiness-sporta_bussinessTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-DuckStartKit-DuckStartKitTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -449,7 +448,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-sporta_bussiness-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-DuckStartKit-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -462,15 +461,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-sporta_bussiness-sporta_bussinessTests/Pods-sporta_bussiness-sporta_bussinessTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-DuckStartKit-DuckStartKitTests/Pods-DuckStartKit-DuckStartKitTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-sporta_bussiness-sporta_bussinessTests/Pods-sporta_bussiness-sporta_bussinessTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-DuckStartKit-DuckStartKitTests/Pods-DuckStartKit-DuckStartKitTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-sporta_bussiness-sporta_bussinessTests/Pods-sporta_bussiness-sporta_bussinessTests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DuckStartKit-DuckStartKitTests/Pods-DuckStartKit-DuckStartKitTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E235C05ADACE081382539298 /* [CP] Copy Pods Resources */ = {
@@ -479,15 +478,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-sporta_bussiness/Pods-sporta_bussiness-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-DuckStartKit/Pods-DuckStartKit-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-sporta_bussiness/Pods-sporta_bussiness-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-DuckStartKit/Pods-DuckStartKit-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-sporta_bussiness/Pods-sporta_bussiness-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DuckStartKit/Pods-DuckStartKit-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */ = {
@@ -496,15 +495,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-sporta_bussiness-sporta_bussinessTests/Pods-sporta_bussiness-sporta_bussinessTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-DuckStartKit-DuckStartKitTests/Pods-DuckStartKit-DuckStartKitTests-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-sporta_bussiness-sporta_bussinessTests/Pods-sporta_bussiness-sporta_bussinessTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-DuckStartKit-DuckStartKitTests/Pods-DuckStartKit-DuckStartKitTests-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-sporta_bussiness-sporta_bussinessTests/Pods-sporta_bussiness-sporta_bussinessTests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DuckStartKit-DuckStartKitTests/Pods-DuckStartKit-DuckStartKitTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -533,7 +532,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* sporta_bussinessTests.m in Sources */,
+				00E356F31AD99517003FC87E /* DuckStartKitTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -551,7 +550,7 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* sporta_bussiness */;
+			target = 13B07F861A680F5B00A75B9A /* DuckStartKit */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -559,14 +558,14 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-sporta_bussiness-sporta_bussinessTests.debug.xcconfig */;
+			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-DuckStartKit-DuckStartKitTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = sporta_bussinessTests/Info.plist;
+				INFOPLIST_FILE = DuckStartKitTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -578,19 +577,19 @@
 					"-lc++",
 					"$(inherited)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.duckstartkit.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sporta_bussiness.app/sporta_bussiness";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DuckStartKit.app/DuckStartKit";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-sporta_bussiness-sporta_bussinessTests.release.xcconfig */;
+			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-DuckStartKit-DuckStartKitTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = sporta_bussinessTests/Info.plist;
+				INFOPLIST_FILE = DuckStartKitTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -602,21 +601,22 @@
 					"-lc++",
 					"$(inherited)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.duckstartkit.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sporta_bussiness.app/sporta_bussiness";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DuckStartKit.app/DuckStartKit";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-sporta_bussiness.debug.xcconfig */;
+			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-DuckStartKit.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = sporta_bussiness/Info.plist;
+				INFOPLIST_FILE = DuckStartKit/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = DuckStartKit;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -627,8 +627,8 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = sporta_bussiness;
+				PRODUCT_BUNDLE_IDENTIFIER = com.duckstartkit.app;
+				PRODUCT_NAME = DuckStartKit;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -637,12 +637,13 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-sporta_bussiness.release.xcconfig */;
+			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-DuckStartKit.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_FILE = sporta_bussiness/Info.plist;
+				INFOPLIST_FILE = DuckStartKit/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = DuckStartKit;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -653,8 +654,8 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = sporta_bussiness;
+				PRODUCT_BUNDLE_IDENTIFIER = com.duckstartkit.app;
+				PRODUCT_NAME = DuckStartKit;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -800,7 +801,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "sporta_bussinessTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "DuckStartKitTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -809,7 +810,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "sporta_bussiness" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "DuckStartKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -818,7 +819,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "sporta_bussiness" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "DuckStartKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,
