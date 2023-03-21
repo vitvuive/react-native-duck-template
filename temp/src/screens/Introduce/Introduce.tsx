@@ -1,7 +1,8 @@
 import React from 'react';
-import { StyleSheet } from 'react-native';
+import { Image, StyleSheet } from 'react-native';
 import { Button, Layout, Text } from '@ui-kitten/components';
 
+import { Images } from '@/assets';
 import { Colors } from '@/core/theme/colors';
 import { CommonSizes } from '@/core/theme/commonSizes';
 
@@ -14,12 +15,13 @@ const Introduce = () => {
   return (
     <Layout style={styles.container}>
       <Layout style={styles.containerBottom}>
-        <Text status="control" appearance="hint" style={styles.desc}>
-          {'Mô tả app'}
+        <Text category="h2" style={styles.desc}>
+          {'Welcome to Duck'}
         </Text>
-        <Button status="control" onPress={onPress}>
-          Next
-        </Button>
+        <Text category="s1" style={{ textAlign: 'center' }}>
+          {'A template you application for start quickly!'}
+        </Text>
+        <Button onPress={onPress}>Start</Button>
       </Layout>
     </Layout>
   );
@@ -33,15 +35,12 @@ const styles = StyleSheet.create({
     justifyContent: 'flex-end',
   },
   image: {
-    width: '100%',
-    height: 300,
+    width: '30%',
+    height: '30%',
   },
   containerBottom: {
     paddingHorizontal: CommonSizes.spacing.large,
-    borderTopRightRadius: 80,
-    borderTopLeftRadius: 80,
-    backgroundColor: Colors.primary,
-    height: '40%',
+    height: '35%',
     justifyContent: 'space-evenly',
   },
   title: {
@@ -51,6 +50,5 @@ const styles = StyleSheet.create({
   },
   desc: {
     textAlign: 'center',
-    fontSize: CommonSizes.font.mediumPlus,
   },
 });

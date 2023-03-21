@@ -22,6 +22,6 @@ export const mapping = {
     'text-heading-6-font-weight': isAndroid ? 'bold' : '700',
     'text-heading-6-font-family': 'OpenSans-Bold',
 
-    'border-radius': 5,
+    'border-radius': 8,
   },
 };
