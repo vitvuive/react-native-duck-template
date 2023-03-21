@@ -34,7 +34,7 @@ const SignIn = () => {
           onPress={onSaga}>
           {(evaProps) => (
             <Text {...evaProps} style={styles.btnText}>
-              Đăng nhập bằng Apple
+              Login with Apple
             </Text>
           )}
         </Button>

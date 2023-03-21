@@ -5,7 +5,6 @@ import { Avatar, Button, Icon, Layout, Text } from '@ui-kitten/components';
 import { ButtonIcon, Container, Row } from '@/components';
 import NavigationService from '@/core/stacks/NavigationService';
 import { useAppDispatch } from '@/core/store';
-import { authSlice } from '@/core/store/auth/authReducer';
 import { globalSlice } from '@/core/store/global/globalReducer';
 import { CommonSizes } from '@/core/theme';
 
@@ -15,22 +14,21 @@ const AVATAR_URL =
 const MEMU = [
   {
     iconName: 'question-mark-circle-outline',
-    title: 'Hướng dẫn',
+    title: 'Question',
   },
 
   {
     iconName: 'message-circle-outline',
-    title: 'Liên hệ',
+    title: 'Contact',
   },
   {
     iconName: 'person-delete-outline',
-    title: 'Xoá tài khoản',
+    title: 'Delete account',
   },
 ];
 
 const Menu = () => {
   const dispatch = useAppDispatch();
-  // const { user } = useAppSelector((state) => state.auth);
 
   const onLogOut = () => dispatch(globalSlice.actions.setIsLogin(false));
 
@@ -46,7 +44,7 @@ const Menu = () => {
           <Row
             justifyContent="space-between"
             style={{ marginBottom: CommonSizes.spacing.medium }}>
-            <Text category="h6">{'Tài khoản'}</Text>
+            <Text category="h6">{'Account'}</Text>
 
             <ButtonIcon
               onPress={() => NavigationService.navigate('Notification')}
@@ -61,16 +59,12 @@ const Menu = () => {
               {'acb@gmail.com'}
             </Text>
           </Row>
-          <Row justifyContent="space-between" style={styles.sectionTitle}>
-            <Text category="h6">{'Trung tâm của bạn'}</Text>
-            <ButtonIcon onPress={() => {}} name={'plus-outline'} />
-          </Row>
         </Layout>
         <Layout level="2" style={styles.cartContainer}>
           <Text
             style={{ marginBottom: CommonSizes.spacing.extraSmall }}
             category="h6">
-            {'Trợ giúp'}
+            {'Help'}
           </Text>
           {MEMU.map((item) => (
             <Row key={item.title} style={styles.itemContainer}>
@@ -82,7 +76,7 @@ const Menu = () => {
       </View>
 
       <Button appearance="ghost" status="danger" onPress={onLogOut}>
-        {'Đăng xuất'}
+        {'Log out'}
       </Button>
     </Container>
   );

@@ -11,9 +11,9 @@ import {
   Icon,
 } from '@ui-kitten/components';
 
-import Home from '@/screens/Home';
-import Menu from '@/screens/Menu';
-import Report from '@/screens/Report';
+import Home from '@/screens/Home/Home';
+import Menu from '@/screens/Menu/Menu';
+import Report from '@/screens/Report/Report';
 
 import { Colors, CommonSizes } from '../theme';
 

@@ -1,7 +1,7 @@
 import React from 'react';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
-import SignIn from '../../screens/SignIn';
+import SignIn from '../../screens/SignIn/SignIn';
 
 import { TAuthParamList } from './type';
 

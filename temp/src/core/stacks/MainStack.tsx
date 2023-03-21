@@ -1,7 +1,7 @@
 import React from 'react';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
-import Notification from '@/screens/Notification';
+import Notification from '@/screens/Notification/Notification';
 
 import BottomTab from './BottomTab';
 import { TMainParamList } from './type';

@@ -7,7 +7,7 @@ import {
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
 import ModalDateTime from '@/components/Modal/ModalDateTime';
-import Introduce from '@/screens/Introduce';
+import Introduce from '@/screens/Introduce/Introduce';
 
 import { useAppSelector } from '../store';
 

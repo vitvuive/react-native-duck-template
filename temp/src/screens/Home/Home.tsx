@@ -5,8 +5,6 @@ import { Text } from '@ui-kitten/components';
 import { Container } from '@/components';
 
 const Home = () => {
-  // const { user } = useAppSelector((state) => state.auth);
-
   return (
     <Container style={styles.container}>
       <Text>Home</Text>
@@ -19,5 +17,7 @@ export default Home;
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
   },
 });
