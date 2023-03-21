@@ -6,6 +6,7 @@
  */
 
 import React from 'react';
+import RNBootSplash from 'react-native-bootsplash';
 import { Provider } from 'react-redux';
 import * as eva from '@eva-design/eva';
 import { NavigationContainer } from '@react-navigation/native';
@@ -27,7 +28,9 @@ function App(): JSX.Element {
         {...eva}
         theme={{ ...eva.light, ...theme }}
         customMapping={{ ...eva.mapping, ...mapping }}>
-        <NavigationContainer ref={navigationRef}>
+        <NavigationContainer
+          ref={navigationRef}
+          onReady={() => RNBootSplash.hide({ fade: true, duration: 500 })}>
           <Stacks />
         </NavigationContainer>
       </ApplicationProvider>

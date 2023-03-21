@@ -1,19 +1,22 @@
 import React from 'react';
-import { Image, StyleSheet } from 'react-native';
+import { Image, StyleSheet, View } from 'react-native';
 import { Button, Layout, Text } from '@ui-kitten/components';
 
 import { Images } from '@/assets';
-import { Colors } from '@/core/theme/colors';
+import { useAppDispatch } from '@/core/store';
+import { globalSlice } from '@/core/store/global/globalReducer';
 import { CommonSizes } from '@/core/theme/commonSizes';
-
-import { useAppDispatch } from '../../core/store';
-import { globalSlice } from '../../core/store/global/globalReducer';
 
 const Introduce = () => {
   const dispatch = useAppDispatch();
   const onPress = () => dispatch(globalSlice.actions.setIntroLoaded(true));
+
   return (
     <Layout style={styles.container}>
+      <View style={styles.logoView}>
+        <Image source={Images.duckLogo} style={styles.logo} />
+      </View>
+
       <Layout style={styles.containerBottom}>
         <Text category="h2" style={styles.desc}>
           {'Welcome to Duck'}
@@ -32,15 +35,20 @@ export default Introduce;
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    justifyContent: 'flex-end',
+    justifyContent: 'space-between',
   },
-  image: {
-    width: '30%',
-    height: '30%',
+  logoView: {
+    flex: 2,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  logo: {
+    width: 80,
+    height: 80,
   },
   containerBottom: {
     paddingHorizontal: CommonSizes.spacing.large,
-    height: '35%',
+    flex: 1,
     justifyContent: 'space-evenly',
   },
   title: {

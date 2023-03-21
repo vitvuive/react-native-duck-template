@@ -3,7 +3,7 @@ import LogoGoogle from './svg/google.svg';
 import LogoApp from './svg/logo.svg';
 
 const Images = {
-  // duckLogo: require('./image/duck_logo.png'),
+  duckLogo: require('./image/origami.png'),
 };
 
 const Icons = {

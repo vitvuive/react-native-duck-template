@@ -1,7 +1,8 @@
 import React from 'react';
-import { StyleSheet, View } from 'react-native';
+import { Image, StyleSheet, View } from 'react-native';
 import { Button, Icon, Input, Text } from '@ui-kitten/components';
 
+import { Images } from '@/assets';
 import Container from '@/components/Container';
 import { signInAsync } from '@/core/store/auth/authReducer';
 import { Colors, CommonSizes } from '@/core/theme';
@@ -18,7 +19,7 @@ const SignIn = () => {
   return (
     <Container style={styles.container}>
       <View style={styles.logoView}>
-        <Text>LOGO APP</Text>
+        <Image source={Images.duckLogo} style={styles.logo} />
       </View>
       <View style={styles.headerContainer}>
         <Text category="h4">Log in and let's swimming</Text>
@@ -58,7 +59,7 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     justifyContent: 'space-evenly',
-    padding: CommonSizes.spacing.medium,
+    padding: CommonSizes.spacing.mediumPlus,
   },
   logoView: {
     flex: 1,
@@ -77,8 +78,8 @@ const styles = StyleSheet.create({
     marginTop: 16,
   },
   logo: {
-    height: 300,
-    width: '100%',
+    height: 80,
+    width: 80,
   },
   btnView: {
     paddingHorizontal: CommonSizes.spacing.large,
