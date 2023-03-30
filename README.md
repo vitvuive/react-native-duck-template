@@ -21,7 +21,7 @@ A starter kit for initializing a new React-Native project with some commonly use
 To create a new project using the barebone boilerplate:
 
 ```sh
-npx react-native init AppName --template @vitvuive/react-native-duck-template.git
+npx react-native init AppName --template https://github.com/vitvuive/react-native-duck-template.git
 ```
 
 ## Rename the project: (Thanks to [react-native-name](https://github.com/junedomingo/react-native-rename))
