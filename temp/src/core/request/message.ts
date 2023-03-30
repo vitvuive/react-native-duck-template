@@ -22,7 +22,7 @@ export const mapResponseCodeToMessage = (
   code: ECommonResponseCode,
   fallback?: string,
 ): string => {
-  // TODO: handle translate message
+  // TODO: handle trans message
   switch (code) {
     case ECommonResponseCode.PARAMS_INVALID:
       return 'Parameter validation failed';

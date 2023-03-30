@@ -4,6 +4,7 @@ import { Button, Icon, Input, Text } from '@ui-kitten/components';
 
 import { Images } from '@/assets';
 import Container from '@/components/Container';
+import { trans } from '@/core/i18n';
 import { signInAsync } from '@/core/store/auth/authReducer';
 import { Colors, CommonSizes } from '@/core/theme';
 
@@ -23,7 +24,7 @@ const SignIn = () => {
       </View>
       <View style={styles.headerContainer}>
         <Text category="h4">Log in and let's swimming</Text>
-        <Button onPress={onSaga}>Continue with Google</Button>
+        <Button onPress={onSaga}>{trans('continueWithGoogle')}</Button>
 
         <Text style={{ textAlign: 'center' }}>Or use email</Text>
 
@@ -38,11 +39,11 @@ const SignIn = () => {
             size="large"
             status="basic"
             accessoryLeft={(props) => <Icon {...props} name="lock-outline" />}
-            placeholder="Password"
+            placeholder={trans('password')}
             style={{ marginVertical: CommonSizes.spacing.medium }}
           />
 
-          <Button status="basic">Login</Button>
+          <Button status="basic">{trans('login')}</Button>
         </View>
 
         <Text style={{ textAlign: 'center' }}>

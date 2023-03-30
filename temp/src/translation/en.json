@@ -1,0 +1,9 @@
+{
+  "login": "Login",
+  "welcome": "Welcome to Duck",
+  "welcomeDesc": "A template you application for start quickly!",
+  "start": "Start",
+  "email": "Email",
+  "password": "Password",
+  "continueWithGoogle": "Continue With Google"
+}
